@@ -26,6 +26,8 @@ def get_info(soup):
 
     property_name = soup.find("span", {"class": "_18hrqvin"}).get_text()
 
+    property_type = soup.find("a", {"class": "_10k87om"}).get_text()
+
     # Get other listing info as string
     listing_info = str(soup.findAll("div", {"class": "_czm8crp"}))
 
@@ -33,6 +35,7 @@ def get_info(soup):
     num_baths = re.search("\d+ bath", listing_info).group(0)
 
     listing.append(property_name)
+    listing.append(property_type)
     listing.append(num_beds)
     listing.append(num_baths)
     listing.append(get_amenities(soup))
