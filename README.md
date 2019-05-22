@@ -26,4 +26,4 @@ https://www.airbnb.co.uk/rooms/1939240?guests=1&adults=1&sl_alternate_dates_excl
 
 https://www.airbnb.co.uk/rooms/14531512?guests=1&adults=1&sl_alternate_dates_exclusion=true&source_impression_id=p3_1558560761_9eLFptTcwI9V3iCa&check_in=&check_out=&children=0&infants=0
 
-For testing purposes, I have also included the HTML files for each of the pages.
+I have also included the HTML files for each of the pages in the HTML_Files folder.
