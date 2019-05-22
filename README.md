@@ -6,9 +6,9 @@ Written in Python 2
 
 ## Dependencies
 
-BeautifulSoup__
-re__
-requests__
+BeautifulSoup<br>
+re<br>
+requests<br>
 
 ## Solution
 
