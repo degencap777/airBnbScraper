@@ -16,4 +16,12 @@ To begin, I looked at the source of one of the listings to gain an understanding
 
 I used a similar process to get the number of bedrooms and bathrooms, searching for another specific class, though this time using regex to get the right data from a larger string. Retrieving a list of amenities from the page was more challenging and required a different approach. I created a separate function that converted the page HTML to a string, and used regex to retrieve this data. This did not cause performance issues.
 
-The program displays the retrieved data as a string within the terminal.
+The program requests an URL to the Airbnb listing as user input and displays the retrieved data as a string within the terminal.
+
+Tested with:
+
+https://www.airbnb.co.uk/rooms/19278160?guests=1&adults=1&sl_alternate_dates_exclusion=true&source_impression_id=p3_1558560250_evzQ4wHgRihsgtP4&check_in=&check_out=&children=0&infants=0
+
+https://www.airbnb.co.uk/rooms/1939240?guests=1&adults=1&sl_alternate_dates_exclusion=true&source_impression_id=p3_1558560254_fQHVfU32DxGDnBQL
+
+https://www.airbnb.co.uk/rooms/14531512?guests=1&adults=1&sl_alternate_dates_exclusion=true&source_impression_id=p3_1558560761_9eLFptTcwI9V3iCa&check_in=&check_out=&children=0&infants=0
